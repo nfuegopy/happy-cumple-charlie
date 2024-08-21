@@ -1,8 +1,5 @@
 <template>
   <div class="min-h-screen bg-gradient-to-b from-pink-100 to-purple-200">
-    <header class="py-6 text-center">
-      <h1 class="text-4xl font-bold text-purple-800">¡El Primer Añito de Charli!</h1>
-    </header>
     <main class="container mx-auto px-4">
       <router-view></router-view>
     </main>

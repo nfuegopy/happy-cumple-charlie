@@ -9,13 +9,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-    {
-      path: '/galeria',
-      name: 'gallery',
-      // Uso de carga perezosa para la galería
-      component: () => import('../views/GalleryView.vue')
-    },
-    {
+     {
       path: '/confirmar',
       name: 'confirm',
       // Uso de carga perezosa para la página de confirmación
