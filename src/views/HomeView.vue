@@ -89,10 +89,10 @@ const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
 const mapLink = "https://www.google.com/maps/search/?api=1&query=-25.30009925631959,-57.555997388481465";
 
 const images = ref([
-  '\src\assets\gallery\1.jpg',
-  '\src\assets\gallery\2.jpg',
-  '\src\assets\gallery\3.jpg',
-  '\src\assets\gallery\4.jpg',
+  '/src/assets/gallery/1.jpg',
+  '/src/assets/gallery/2.jpg',
+  '/src/assets/gallery/3.jpg',
+  '/src/assets/gallery/4.jpg',
 ]);
 
 const openGift = () => {
