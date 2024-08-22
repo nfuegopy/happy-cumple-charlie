@@ -82,8 +82,8 @@ onUnmounted(() => {
     <transition name="fade">
       <div v-if="isOpen" class="invitation-content p-4">
         <main class="container mx-auto px-4 py-8">
-          <DetalleView />
           <InvitacionView />
+          <DetalleView />
           <GalleriaFotos />
         </main>
       </div>
