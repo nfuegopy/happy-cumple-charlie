@@ -81,6 +81,7 @@ onUnmounted(() => {
 
     <transition name="fade">
       <div v-if="isOpen" class="invitation-content p-4">
+        <h1 class="text-4xl md:text-6xl font-bold text-purple-800 text-center mb-8">¡El Primer Añito de Charlie!</h1>
         <main class="container mx-auto px-4 py-8">
           <InvitacionView />
           <DetalleView />
