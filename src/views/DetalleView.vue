@@ -7,7 +7,7 @@ const mapLink = "https://www.google.com/maps/search/?api=1&query=-25.30009925631
 
 <template>
     <div class="mb-8">
-        <h1 class="text-4xl md:text-6xl font-bold text-purple-800 text-center mb-8">¡El Primer Añito de Charlie!</h1>
+
 
         <section class="bg-white rounded-lg shadow-lg p-6">
             <h3 class="text-2xl font-semibold text-purple-600 mb-4">✨ Detalles ✨</h3>
